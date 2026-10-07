@@ -71,7 +71,7 @@ The preprocessing pipeline included:
 - Removing irrelevant features
 - One-hot encoding categorical variables
 - Feature scaling using StandardScaler
-- Train-test split (75:25)
+- Train-test split (80:20)
 
 ---
 
@@ -95,10 +95,9 @@ The model was evaluated using:
 
 | Metric | Value |
 |--------|-------|
-| Accuracy | 99.63% |
-| Precision | 89.19% |
-| Recall | 91.67% |
-| F1 Score | 90.41% |
+| Precision | 0.59 |
+| Recall | 1.00 |
+| F1 Score | 0.74 |
 
 ---
 
